@@ -1,7 +1,0 @@
-<div class="wdghtml" taskKey="com.javarush.task.task37.task3709">
-<h3>Security Proxy</h3>
-<p>Необходимо создать класс <span class="text-corporate">SecurityProxyConnector</span> в пакете connectors, который будет производить проверку безопасности перед подключением. В случае, если проверка не пройдена, соединение не должно быть установлено.</p>
-<p>Для клиента (<em>в данном случае класс </em><strong><span class="text-corporate">Solution</span></strong>) использование <strong>SecurityProxyConnector</strong> ничем не должно отличаться от использования класса <span class="text-corporate"><strong>SimpleConnector</strong></span>.</p>
-<p><strong>P.S.</strong> <em>Тебе понадобятся поля типов</em> <strong><span class="text-corporate">SecurityChecker</span></strong> и <span class="text-corporate"><strong>SimpleConnector</strong></span> <em>в классе</em> <strong><span class="text-corporate">SecurityProxyConnector</span></strong>.</p>
-
-</div>
