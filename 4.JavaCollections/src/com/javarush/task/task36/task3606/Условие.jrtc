@@ -1,0 +1,10 @@
+<div class="wdghtml" taskKey="com.javarush.task.task36.task3606">
+<h3>Осваиваем ClassLoader и Reflection</h3>
+<p>Аргументом для класса <span class="text-corporate"><strong>Solution</strong></span> является абсолютный путь к пакету.<br />
+Имя пакета может содержать <strong>File.separator</strong>.<br />
+В этом пакете кроме скомпилированных классов (.class) могут находиться и другие файлы (<em>например: </em><strong>.java</strong>).<br />
+Известно, что каждый класс имеет конструктор без параметров и реализует интерфейс <span class="text-yellow"><strong>HiddenClass</strong></span>.<br />
+Считай все классы с файловой системы, создай фабрику &#8212; реализуй метод <mark>getHiddenClassObjectByKey</mark>.<br />
+<strong>Примечание:</strong> <em>в пакете может быть только один класс, простое имя которого начинается с String key без учета регистра.</em></p>
+
+</div>
