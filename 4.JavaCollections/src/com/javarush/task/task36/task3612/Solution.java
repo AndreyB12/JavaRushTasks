@@ -25,18 +25,18 @@ public class Solution {
 
     private void initializeDates() {
         dates = new HashSet<>();
-        lastDate = new Date(4738615447000L);
+        lastDate = new Date(9999999L);
         dates.add(lastDate);
-        dates.add(new Date(1346328493000L));
-        dates.add(new Date(1476842647000L));
-        dates.add(new Date(1568340290000L));
-        dates.add(new Date(2435709847000L));
+        dates.add(new Date(2222222L));
+        dates.add(new Date(3333333L));
+        dates.add(new Date(4444444L));
+        dates.add(new Date(5555555L));
     }
 
-    private void updateLastDate(long delta) {
-        Date oldLastDate = lastDate;
-        lastDate = new Date(lastDate.getTime() + delta);
-        if (dates.remove(oldLastDate))
-            dates.add(lastDate);
+    protected void updateLastDate(long delta) {
+
+        dates.remove(lastDate);
+        lastDate.setTime(lastDate.getTime() + delta);
+        dates.add(lastDate);
     }
 }
